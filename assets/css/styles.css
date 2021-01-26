@@ -1,0 +1,142 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  flex: 50%;
+}
+
+.flex-item-right {
+  flex: 50%;
+}
+
+@media (max-width: 576px) {
+  header {
+    background-color: #ffffff;
+    height: 60px;
+  }
+  .hero {
+    background-color: #c4c4c4;
+    height: 200px;
+  }
+  .section-header {
+    background-color: #ffffff;
+    height: 1370px;
+    padding: 80px 0px;
+  }
+  .section-header .card-img {
+    background-color: #c4c4c4;
+    height: 150px;
+  }
+  .section-header .card-content {
+    height: 150px;
+  }
+  .section-body {
+    background-color: #f0f0f0;
+    height: 680px;
+    padding: 30px 0px;
+  }
+  .flex-container {
+    flex-direction: column-reverse;
+  }
+  .section-body .card-content {
+    background-color: #ffffff;
+    height: 300px;
+  }
+  .section-body .card-img {
+    background-color: #999999;
+    height: 300px;
+  }
+  footer {
+    background-color: #ffffff;
+    height: 690px;
+  }
+}
+
+@media (min-width: 576px) {
+  header {
+    background-color: #ffffff;
+    height: 60px;
+  }
+  .hero {
+    background-color: #c4c4c4;
+    height: 350px;
+  }
+  .section-header {
+    background-color: #ffffff;
+    height: 790px;
+    padding: 80px 0px;
+  }
+  .section-header .card-img {
+    background-color: #c4c4c4;
+    height: 150px;
+  }
+  .section-header .card-content {
+    height: 150px;
+  }
+  .section-body {
+    background-color: #f0f0f0;
+    height: 460px;
+    padding: 80px 0px;
+  }
+
+  .section-body .card-content {
+    background-color: #ffffff;
+    height: 300px;
+  }
+  .section-body .card-img {
+    background-color: #999999;
+    height: 300px;
+  }
+  footer {
+    background-color: #ffffff;
+    height: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  header {
+    background-color: #ffffff;
+    height: 60px;
+  }
+
+  .hero {
+    background-color: #c4c4c4;
+    height: 500px;
+  }
+  .section-header {
+    background-color: #ffffff;
+    height: 460px;
+    padding: 80px 0px;
+  }
+  .section-header .card-img {
+    background-color: #c4c4c4;
+    height: 150px;
+  }
+  .section-header .card-content {
+    height: 150px;
+  }
+
+  .section-body {
+    background-color: #f0f0f0;
+    height: 460px;
+    padding: 80px 0px;
+  }
+
+  .section-body .card-content {
+    background-color: #ffffff;
+    height: 300px;
+  }
+  .section-body .card-img {
+    background-color: #999999;
+    height: 300px;
+  }
+
+  footer {
+    background-color: #ffffff;
+    height: 500px;
+  }
+}
